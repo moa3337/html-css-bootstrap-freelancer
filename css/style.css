@@ -1,24 +1,22 @@
-.uno{
+.top{
     background-color: #2C3E50;
     height: 10vh;
 }
-.due{
+.uno{
     background-color: #1ABC9C;
     height: 65vh;
 }
-.avatar{
-}
-.tre{
+.due{
     height: 90vh;
 }
-.quatro{
+.tre{
     background-color: #1ABC9C;
     height: 50vh;
 }
-.cinque{
+.quatro{
     height: 75vh;
 }
-.sei{
-    background-color: #1ABC9C;
-    height: 20vh;
+.cinque{
+    background-color: #3A546D;
+    height: 25vh;
 }
