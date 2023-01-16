@@ -5,21 +5,14 @@
 .burger{
     display: none;
 }
+
 /*MAIN*/
-img{
-    width: 100%;
-    border-radius: 9px;
-}
-.box.box-img {
-    width: 20rem;
-}
 .odd:nth-of-type(odd){
     color: white;
     background-color: #1ABC9C;
 }
-.gy-5>.col-lg-4>.box.box-img>img{
-    margin-left: 4rem;
-    width: 28rem;
+.box.box-img {
+    width: 20rem;
 }
 button{
     background-color: #1ABC9C;
@@ -37,6 +30,7 @@ button{
     height: 1px;
     background-color: lightgray;
 }
+
 /*FOOTER*/
 .upper-footer{
     background-color: #3A546D;
@@ -48,11 +42,15 @@ a{
 /********************
      MEDIA-QUERY
 ********************/
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
     li{
         display: none;
     }
     .burger{
         display: block;
+    }
+    .hr{
+        width: 5rem;
+        margin: 2rem;
     }
 }
